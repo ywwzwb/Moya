@@ -1,5 +1,7 @@
 # Next
 - Added Swift 4.0 support.
+- **Breaking Change** Replaced `parameters` & `parameterEncoding` in `TargetType` with extended `Task` cases.
+- **Breaking Change** Flattened `UploadType` and `DownloadType` into `Task` cases.
 
 # 9.0.0-alpha.1
 
