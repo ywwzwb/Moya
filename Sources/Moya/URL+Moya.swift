@@ -10,7 +10,8 @@ public extension URL {
         if target.path.isEmpty {
             self = target.baseURL
         } else {
-            self = target.baseURL.appendingPathComponent(target.path)
+//            self = target.baseURL.appendingPathComponent(target.path)
+            self.init(string: target.path, baseURL: target.baseURL)
         }
     }
 }
